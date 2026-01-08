@@ -1,0 +1,100 @@
+/*  Some Variables */
+:root {
+  --color-primary: #30b868;
+  --color-text-main: #001931;
+  --color-text-muted: #627382;
+}
+
+/* Some Resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  line-height: 1.8;
+  text-rendering: optimizeSpeed;
+  color: var(--color-text-muted);
+  background-color: #ffffff;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-main);
+}
+
+p {
+  color: var(--color-text-muted);
+}
+
+/* Additional Styles */
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin-inline: auto;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}

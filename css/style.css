@@ -1,0 +1,26 @@
+@import url(./reset.css);
+
+/* Heading Styles */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  height: 70px;
+}
+
+header .container img {
+  width: 100px;
+}
+
+header .container ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  height: 100%;
+}
+
+header .container ul  a{
+    font-weight: 600;
+}

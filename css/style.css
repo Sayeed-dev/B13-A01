@@ -21,6 +21,59 @@ header .container ul {
   height: 100%;
 }
 
-header .container ul  a{
-    font-weight: 600;
+header .container ul a {
+  font-weight: 600;
+}
+
+/* Hero Section Style */
+
+.hero {
+  text-align: center;
+  height: 100vh;
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .container a {
+  background-color: #fff;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.hero .container h1 {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+.hero .container h1 span {
+  color: var(--color-primary);
+}
+
+.hero .container p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 2.5;
+}
+
+.hero .container .button_area {
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  margin-top: 25px;
+  margin: 20px auto;
+}
+.hero .container .button_area .btn2 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
 }
